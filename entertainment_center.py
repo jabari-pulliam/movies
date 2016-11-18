@@ -1,6 +1,7 @@
 from media import *
 from fresh_tomatoes import *
 
+# Build the list of movies
 movies = [Movie(movie_title="The Shawshank Redemption",
                 poster_image="http://ayay.co.uk/movies/poster/classic/"
                              "the-shawshank-redemption.jpg",
@@ -18,4 +19,5 @@ movies = [Movie(movie_title="The Shawshank Redemption",
                 trailer_youtube="https://www.youtube.com/watch?v=xNMoQ_Cqt4E"
                 )]
 
+# Display the movies
 open_movies_page(movies)
